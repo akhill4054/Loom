@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "encode": "go run ./cmd/encode/encode.go",
+    "dev": "nodemon --signal SIGKILL -e go --exec \"go run ./cmd/example/main.go\""
+  }
+}
