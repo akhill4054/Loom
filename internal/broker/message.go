@@ -12,7 +12,7 @@ func ReadMessage(conn *websocket.Conn) (*Event, error) {
 		Decodes event in the following bytes format.
 			+--------+----------+--------+------------+-------------+
 			| ACTION | T_LEN    | TOPIC  | P_LEN      |  PAYLOAD    |
-			| (1B)   | (1–2B)   | bytes  | (4B)       |  bytes       |
+			| (1B)   | (1–2B)   | bytes  | (4B)       |  bytes      |
 			+--------+----------+--------+------------+-------------+
 	*/
 	msgType, msg, err := conn.ReadMessage()
