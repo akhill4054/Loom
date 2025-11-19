@@ -24,4 +24,4 @@ Received event by a subscriber looks like this:
 +-------------+
 ~~~
 
-See `cmd/encode/encode.go` example code.
+See `cmd/encode/main.go` example code.
