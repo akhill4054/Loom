@@ -51,6 +51,6 @@ func (t *Topic) RemoveSubscriber(ch chan *Event) {
 
 	if _, ok := t.subs[ch]; ok {
 		delete(t.subs, ch)
-		close(ch) // // close channel to stop subscriber goroutine
+		close(ch) // close channel to stop subscriber goroutine
 	}
 }
