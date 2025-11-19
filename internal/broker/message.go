@@ -64,5 +64,4 @@ func ReadMessage(conn *websocket.Conn) (*Event, error) {
 	payload := msg[i : i+int(payloadLen)]
 
 	return &Event{action, topic, payload}, nil
-
 }
