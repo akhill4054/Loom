@@ -1,0 +1,38 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore build output
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore Go vendor directory
+vendor/
+
+# Ignore coverage files
+*.cover
+coverage.out
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
