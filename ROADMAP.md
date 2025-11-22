@@ -2,10 +2,11 @@
 
 ## Short term
 - Fix message drops
-- Add a Kafka like consumer-group logic
 - Optimize in-memeory message storage
 
 ## Medium term
+- Add a Kafka like consumer-group logic
+- Add basic auth support
 - Add reconnect logic
 - Add message durability
 
